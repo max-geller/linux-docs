@@ -46,7 +46,7 @@ The prefix for tmux operations is CTRL + a.
 
 ## NeoVim
 
-The leader key for my NeoVim setup is <Space>
+The leader key for my NeoVim setup is Space
 
 | Description          | Shortcut | Plugin  |
 | -------------------- | -------- | ------- |
