@@ -14,5 +14,6 @@ npm run docs:dev
 
 ## Hosting
 
-This site is hosted using GitHub pages, and can be found here: (https://max-geller.github.io/linux-docs/)[GitHub Repo]
-TODO: Insert Link
+This site is hosted using GitHub pages, and can be found here:
+[Linux-Docs Site](https://max-geller.github.io/linux-docs/)
+
