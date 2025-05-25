@@ -15,10 +15,10 @@ hero:
       link: /nav/cheat-sheet
 
 features:
-  - title: Feature A
+  - title: Arch Linux
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Hyprland
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: NeoVim
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---

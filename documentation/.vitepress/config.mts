@@ -9,11 +9,27 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Setup Guide", link: "/setup/introduction" },
-      { text: "Keybindings", link: "/keybindings" },
-      { text: "Resources", link: "/resources" },
+      { text: "Getting Started", link: "/nav/getting-started" },
+      { text: "Keybindings", link: "/nav/cheat-sheet" },
+      { text: "Resources", link: "/nav/resources" },
     ],
     sidebar: [
+      {
+        text: "Getting Started",
+        link: "/nav/getting-started",
+      },
+      {
+        text: "Essential Applications",
+        link: "/nav/essential-apps",
+      },
+      {
+        text: "Keybindings Cheat Sheet",
+        link: "/nav/cheat-sheet",
+      },
+      {
+        text: "Resources",
+        link: "/nav/resources",
+      },
       {
         text: "Introduction",
         items: [
@@ -24,52 +40,40 @@ export default defineConfig({
       {
         text: "System Setup",
         items: [
-          { text: "Linux Distribution", link: "setup/linux" },
-          { text: "Hyprland", link: "" },
-          { text: "Waybar", link: "" },
+          { text: "Linux Distribution", link: "system/linux" },
+          { text: "Hyprland", link: "system/hypr" },
+          { text: "Waybar", link: "system/waybar" },
+          { text: "Rofi", link: "system/rofi" },
+          { text: "Notifications", link: "system/notifications" },
+          { text: "Performance", link: "system/performance" },
+          { text: "Fonts", link: "system/fonts" },
+          { text: "Goodies", link: "system/goodies" },
+        ],
+      },
+      {
+        text: "Terminal",
+        items: [
+          { text: "Kitty", link: "/terminal/kitty" },
+          { text: "Zsh", link: "/terminal/zsh" },
+          { text: "Starship", link: "/terminal/starship" },
+          { text: "NerdFonts", link: "/terminal/nerdfonts" },
         ],
       },
       {
         text: "Development IDE",
         items: [
-          { text: "Neovim Setup", link: "/ide/neovim" },
-          { text: "Neovim Keybindings", link: "/ide/neovim-keybindings" },
+          { text: "IDE Overview", link: "/ide/overview" },
+          { text: "tmux", link: "/ide/tmux" },
+          { text: "Neovim", link: "/ide/neovim" },
         ],
       },
       {
         text: "Development Workflow",
         items: [
-          { text: "Folder Structure", link: "/workflow/folder-structure" },
-          { text: "Project Setup", link: "/workflow/project-setup" },
+          { text: "Folder Structure", link: "/workflow/structure" },
+          { text: "Project Setup", link: "/workflow/setup" },
           { text: "Git Workflow", link: "/workflow/git" },
         ],
-      },
-      {
-        text: "Tmux Setup",
-        items: [
-          { text: "Tmux Configuration", link: "/tmux/configuration" },
-          { text: "Tmux Workflow", link: "/tmux/workflow" },
-        ],
-      },
-      {
-        text: "Essential Applications",
-        link: "/apps",
-      },
-      {
-        text: "Keybindings Cheat Sheet",
-        link: "/keybindings",
-      },
-      {
-        text: "Resources",
-        link: "/nav/resources",
-      },
-      {
-        text: "Troubleshooting",
-        link: "/troubleshooting",
-      },
-      {
-        text: "Terminal",
-        items: [{ text: "Kitty", link: "/kitty" }],
       },
     ],
 
