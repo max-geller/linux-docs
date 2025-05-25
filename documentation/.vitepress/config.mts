@@ -31,16 +31,18 @@ export default defineConfig({
         link: "/nav/resources",
       },
       {
-        text: "Introduction",
+        text: "Hardware",
         items: [
-          { text: "Overview", link: "/introduction/overview" },
-          { text: "Prerequisites", link: "/introduction/prerequisites" },
+          { text: "Build Specs", link: "/hardware/build" },
+          { text: "Grub", link: "/hardware/grub" },
+          { text: "Peripherals", link: "/hardware/peripherals" },
         ],
       },
       {
         text: "System Setup",
         items: [
           { text: "Linux Distribution", link: "system/linux" },
+          { text: "Grub", link: "system/grub" },
           { text: "Hyprland", link: "system/hypr" },
           { text: "Waybar", link: "system/waybar" },
           { text: "Rofi", link: "system/rofi" },
